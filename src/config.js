@@ -25,11 +25,6 @@ export const CONFIG = {
   // Photo gallery (Page 3). Drop images into /public/photos/
   photos: [
     {
-      src: '/photos/gf/WhatsApp%20Image%202026-11-16%20at%2022.17.48%20%289%29.jpeg',
-      caption: 'My saree queen in maroon',
-      date: 'Nov 2026',
-    },
-    {
       src: '/photos/gf/WhatsApp%20Image%202026-11-16%20at%2022.17.48%20%287%29.jpeg',
       caption: 'Graceful in a blue saree',
       date: 'Nov 2026',
@@ -117,11 +112,6 @@ export const CONFIG = {
     {
       src: '/photos/gf/WhatsApp%20Image%202026-11-12%20at%2023.21.06%20%281%29.jpeg',
       caption: 'A walk in the park',
-      date: 'Aug 2026',
-    },
-    {
-      src: '/photos/gf/WhatsApp%20Image%202026-11-16%20at%2022.17.48%20%284%29.jpeg',
-      caption: 'Soaking in the sunshine',
       date: 'Aug 2026',
     },
   ],

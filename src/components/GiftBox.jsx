@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import confetti from "canvas-confetti";
 import {
   FaImages,
-  FaVideo,
   FaMusic,
   FaEnvelopeOpenText,
 } from "react-icons/fa";
@@ -15,11 +14,6 @@ const ITEMS = [
     icon: FaImages,
     label: "Gallery",
     desc: "Relive the memories",
-  },
-  {
-    icon: FaVideo,
-    label: "Birthday Video",
-    desc: "A little something to watch",
   },
   {
     icon: FaMusic,
@@ -175,24 +169,6 @@ export default function GiftBox({ onNext }) {
                       </div>
                     ))}
                   </div>
-                </>
-              )}
-
-              {/* Video */}
-
-              {selected === "Birthday Video" && (
-                <>
-                  <h2 className="text-3xl font-bold mb-6 text-center">
-                    Birthday Video
-                  </h2>
-
-                  <video
-                    controls
-                    autoPlay
-                    className="w-full rounded-xl"
-                  >
-                    <source src={CONFIG.video} type="video/mp4" />
-                  </video>
                 </>
               )}
 
