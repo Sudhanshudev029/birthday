@@ -11,7 +11,7 @@ export const CONFIG = {
   name: 'Ankita',
 
   // Password required to unlock the surprise (Page 1)
-  password: '18112002',
+  password: '18113003',
 
   // Background music. Drop an mp3 into /public/music/ or import it from src/assets.
   music: song,
